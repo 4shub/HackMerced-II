@@ -10,11 +10,10 @@ COPY package*.json ./
 
 RUN npm install
 
-RUN ./node_modules/.bin/grunt production
-
-
 # Bundle app source
 COPY . .
+
+RUN ./node_modules/.bin/grunt production
 
 EXPOSE 4182
 CMD [ "node", "index.js" ]
