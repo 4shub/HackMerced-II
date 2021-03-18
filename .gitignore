@@ -45,9 +45,6 @@ test/nightwatch_servlet/node_modules
 #dsstore
 .DS_Store
 
-#public should be built via grunt
-public
-
 #any parse files
 assets/parse/*
 

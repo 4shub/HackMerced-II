@@ -1,0 +1,4413 @@
+@charset "UTF-8";
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+  animation: fa-spin 2s infinite linear;
+}
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+  animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+.fa-border {
+  padding: 0.2em 0.25em 0.15em;
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+}
+
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
+.fa.pull-left {
+  margin-right: 0.3em;
+}
+.fa.pull-right {
+  margin-left: 0.3em;
+}
+
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+.fa-fw {
+  width: 1.2857142857em;
+  text-align: center;
+}
+
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+.fa-glass:before {
+  content: "";
+}
+
+.fa-music:before {
+  content: "";
+}
+
+.fa-search:before {
+  content: "";
+}
+
+.fa-envelope-o:before {
+  content: "";
+}
+
+.fa-heart:before {
+  content: "";
+}
+
+.fa-star:before {
+  content: "";
+}
+
+.fa-star-o:before {
+  content: "";
+}
+
+.fa-user:before {
+  content: "";
+}
+
+.fa-film:before {
+  content: "";
+}
+
+.fa-th-large:before {
+  content: "";
+}
+
+.fa-th:before {
+  content: "";
+}
+
+.fa-th-list:before {
+  content: "";
+}
+
+.fa-check:before {
+  content: "";
+}
+
+.fa-remove:before,
+.fa-close:before,
+.fa-times:before {
+  content: "";
+}
+
+.fa-search-plus:before {
+  content: "";
+}
+
+.fa-search-minus:before {
+  content: "";
+}
+
+.fa-power-off:before {
+  content: "";
+}
+
+.fa-signal:before {
+  content: "";
+}
+
+.fa-gear:before,
+.fa-cog:before {
+  content: "";
+}
+
+.fa-trash-o:before {
+  content: "";
+}
+
+.fa-home:before {
+  content: "";
+}
+
+.fa-file-o:before {
+  content: "";
+}
+
+.fa-clock-o:before {
+  content: "";
+}
+
+.fa-road:before {
+  content: "";
+}
+
+.fa-download:before {
+  content: "";
+}
+
+.fa-arrow-circle-o-down:before {
+  content: "";
+}
+
+.fa-arrow-circle-o-up:before {
+  content: "";
+}
+
+.fa-inbox:before {
+  content: "";
+}
+
+.fa-play-circle-o:before {
+  content: "";
+}
+
+.fa-rotate-right:before,
+.fa-repeat:before {
+  content: "";
+}
+
+.fa-refresh:before {
+  content: "";
+}
+
+.fa-list-alt:before {
+  content: "";
+}
+
+.fa-lock:before {
+  content: "";
+}
+
+.fa-flag:before {
+  content: "";
+}
+
+.fa-headphones:before {
+  content: "";
+}
+
+.fa-volume-off:before {
+  content: "";
+}
+
+.fa-volume-down:before {
+  content: "";
+}
+
+.fa-volume-up:before {
+  content: "";
+}
+
+.fa-qrcode:before {
+  content: "";
+}
+
+.fa-barcode:before {
+  content: "";
+}
+
+.fa-tag:before {
+  content: "";
+}
+
+.fa-tags:before {
+  content: "";
+}
+
+.fa-book:before {
+  content: "";
+}
+
+.fa-bookmark:before {
+  content: "";
+}
+
+.fa-print:before {
+  content: "";
+}
+
+.fa-camera:before {
+  content: "";
+}
+
+.fa-font:before {
+  content: "";
+}
+
+.fa-bold:before {
+  content: "";
+}
+
+.fa-italic:before {
+  content: "";
+}
+
+.fa-text-height:before {
+  content: "";
+}
+
+.fa-text-width:before {
+  content: "";
+}
+
+.fa-align-left:before {
+  content: "";
+}
+
+.fa-align-center:before {
+  content: "";
+}
+
+.fa-align-right:before {
+  content: "";
+}
+
+.fa-align-justify:before {
+  content: "";
+}
+
+.fa-list:before {
+  content: "";
+}
+
+.fa-dedent:before,
+.fa-outdent:before {
+  content: "";
+}
+
+.fa-indent:before {
+  content: "";
+}
+
+.fa-video-camera:before {
+  content: "";
+}
+
+.fa-photo:before,
+.fa-image:before,
+.fa-picture-o:before {
+  content: "";
+}
+
+.fa-pencil:before {
+  content: "";
+}
+
+.fa-map-marker:before {
+  content: "";
+}
+
+.fa-adjust:before {
+  content: "";
+}
+
+.fa-tint:before {
+  content: "";
+}
+
+.fa-edit:before,
+.fa-pencil-square-o:before {
+  content: "";
+}
+
+.fa-share-square-o:before {
+  content: "";
+}
+
+.fa-check-square-o:before {
+  content: "";
+}
+
+.fa-arrows:before {
+  content: "";
+}
+
+.fa-step-backward:before {
+  content: "";
+}
+
+.fa-fast-backward:before {
+  content: "";
+}
+
+.fa-backward:before {
+  content: "";
+}
+
+.fa-play:before {
+  content: "";
+}
+
+.fa-pause:before {
+  content: "";
+}
+
+.fa-stop:before {
+  content: "";
+}
+
+.fa-forward:before {
+  content: "";
+}
+
+.fa-fast-forward:before {
+  content: "";
+}
+
+.fa-step-forward:before {
+  content: "";
+}
+
+.fa-eject:before {
+  content: "";
+}
+
+.fa-chevron-left:before {
+  content: "";
+}
+
+.fa-chevron-right:before {
+  content: "";
+}
+
+.fa-plus-circle:before {
+  content: "";
+}
+
+.fa-minus-circle:before {
+  content: "";
+}
+
+.fa-times-circle:before {
+  content: "";
+}
+
+.fa-check-circle:before {
+  content: "";
+}
+
+.fa-question-circle:before {
+  content: "";
+}
+
+.fa-info-circle:before {
+  content: "";
+}
+
+.fa-crosshairs:before {
+  content: "";
+}
+
+.fa-times-circle-o:before {
+  content: "";
+}
+
+.fa-check-circle-o:before {
+  content: "";
+}
+
+.fa-ban:before {
+  content: "";
+}
+
+.fa-arrow-left:before {
+  content: "";
+}
+
+.fa-arrow-right:before {
+  content: "";
+}
+
+.fa-arrow-up:before {
+  content: "";
+}
+
+.fa-arrow-down:before {
+  content: "";
+}
+
+.fa-mail-forward:before,
+.fa-share:before {
+  content: "";
+}
+
+.fa-expand:before {
+  content: "";
+}
+
+.fa-compress:before {
+  content: "";
+}
+
+.fa-plus:before {
+  content: "";
+}
+
+.fa-minus:before {
+  content: "";
+}
+
+.fa-asterisk:before {
+  content: "";
+}
+
+.fa-exclamation-circle:before {
+  content: "";
+}
+
+.fa-gift:before {
+  content: "";
+}
+
+.fa-leaf:before {
+  content: "";
+}
+
+.fa-fire:before {
+  content: "";
+}
+
+.fa-eye:before {
+  content: "";
+}
+
+.fa-eye-slash:before {
+  content: "";
+}
+
+.fa-warning:before,
+.fa-exclamation-triangle:before {
+  content: "";
+}
+
+.fa-plane:before {
+  content: "";
+}
+
+.fa-calendar:before {
+  content: "";
+}
+
+.fa-random:before {
+  content: "";
+}
+
+.fa-comment:before {
+  content: "";
+}
+
+.fa-magnet:before {
+  content: "";
+}
+
+.fa-chevron-up:before {
+  content: "";
+}
+
+.fa-chevron-down:before {
+  content: "";
+}
+
+.fa-retweet:before {
+  content: "";
+}
+
+.fa-shopping-cart:before {
+  content: "";
+}
+
+.fa-folder:before {
+  content: "";
+}
+
+.fa-folder-open:before {
+  content: "";
+}
+
+.fa-arrows-v:before {
+  content: "";
+}
+
+.fa-arrows-h:before {
+  content: "";
+}
+
+.fa-bar-chart-o:before,
+.fa-bar-chart:before {
+  content: "";
+}
+
+.fa-twitter-square:before {
+  content: "";
+}
+
+.fa-facebook-square:before {
+  content: "";
+}
+
+.fa-camera-retro:before {
+  content: "";
+}
+
+.fa-key:before {
+  content: "";
+}
+
+.fa-gears:before,
+.fa-cogs:before {
+  content: "";
+}
+
+.fa-comments:before {
+  content: "";
+}
+
+.fa-thumbs-o-up:before {
+  content: "";
+}
+
+.fa-thumbs-o-down:before {
+  content: "";
+}
+
+.fa-star-half:before {
+  content: "";
+}
+
+.fa-heart-o:before {
+  content: "";
+}
+
+.fa-sign-out:before {
+  content: "";
+}
+
+.fa-linkedin-square:before {
+  content: "";
+}
+
+.fa-thumb-tack:before {
+  content: "";
+}
+
+.fa-external-link:before {
+  content: "";
+}
+
+.fa-sign-in:before {
+  content: "";
+}
+
+.fa-trophy:before {
+  content: "";
+}
+
+.fa-github-square:before {
+  content: "";
+}
+
+.fa-upload:before {
+  content: "";
+}
+
+.fa-lemon-o:before {
+  content: "";
+}
+
+.fa-phone:before {
+  content: "";
+}
+
+.fa-square-o:before {
+  content: "";
+}
+
+.fa-bookmark-o:before {
+  content: "";
+}
+
+.fa-phone-square:before {
+  content: "";
+}
+
+.fa-twitter:before {
+  content: "";
+}
+
+.fa-facebook-f:before,
+.fa-facebook:before {
+  content: "";
+}
+
+.fa-github:before {
+  content: "";
+}
+
+.fa-unlock:before {
+  content: "";
+}
+
+.fa-credit-card:before {
+  content: "";
+}
+
+.fa-rss:before {
+  content: "";
+}
+
+.fa-hdd-o:before {
+  content: "";
+}
+
+.fa-bullhorn:before {
+  content: "";
+}
+
+.fa-bell:before {
+  content: "";
+}
+
+.fa-certificate:before {
+  content: "";
+}
+
+.fa-hand-o-right:before {
+  content: "";
+}
+
+.fa-hand-o-left:before {
+  content: "";
+}
+
+.fa-hand-o-up:before {
+  content: "";
+}
+
+.fa-hand-o-down:before {
+  content: "";
+}
+
+.fa-arrow-circle-left:before {
+  content: "";
+}
+
+.fa-arrow-circle-right:before {
+  content: "";
+}
+
+.fa-arrow-circle-up:before {
+  content: "";
+}
+
+.fa-arrow-circle-down:before {
+  content: "";
+}
+
+.fa-globe:before {
+  content: "";
+}
+
+.fa-wrench:before {
+  content: "";
+}
+
+.fa-tasks:before {
+  content: "";
+}
+
+.fa-filter:before {
+  content: "";
+}
+
+.fa-briefcase:before {
+  content: "";
+}
+
+.fa-arrows-alt:before {
+  content: "";
+}
+
+.fa-group:before,
+.fa-users:before {
+  content: "";
+}
+
+.fa-chain:before,
+.fa-link:before {
+  content: "";
+}
+
+.fa-cloud:before {
+  content: "";
+}
+
+.fa-flask:before {
+  content: "";
+}
+
+.fa-cut:before,
+.fa-scissors:before {
+  content: "";
+}
+
+.fa-copy:before,
+.fa-files-o:before {
+  content: "";
+}
+
+.fa-paperclip:before {
+  content: "";
+}
+
+.fa-save:before,
+.fa-floppy-o:before {
+  content: "";
+}
+
+.fa-square:before {
+  content: "";
+}
+
+.fa-navicon:before,
+.fa-reorder:before,
+.fa-bars:before {
+  content: "";
+}
+
+.fa-list-ul:before {
+  content: "";
+}
+
+.fa-list-ol:before {
+  content: "";
+}
+
+.fa-strikethrough:before {
+  content: "";
+}
+
+.fa-underline:before {
+  content: "";
+}
+
+.fa-table:before {
+  content: "";
+}
+
+.fa-magic:before {
+  content: "";
+}
+
+.fa-truck:before {
+  content: "";
+}
+
+.fa-pinterest:before {
+  content: "";
+}
+
+.fa-pinterest-square:before {
+  content: "";
+}
+
+.fa-google-plus-square:before {
+  content: "";
+}
+
+.fa-google-plus:before {
+  content: "";
+}
+
+.fa-money:before {
+  content: "";
+}
+
+.fa-caret-down:before {
+  content: "";
+}
+
+.fa-caret-up:before {
+  content: "";
+}
+
+.fa-caret-left:before {
+  content: "";
+}
+
+.fa-caret-right:before {
+  content: "";
+}
+
+.fa-columns:before {
+  content: "";
+}
+
+.fa-unsorted:before,
+.fa-sort:before {
+  content: "";
+}
+
+.fa-sort-down:before,
+.fa-sort-desc:before {
+  content: "";
+}
+
+.fa-sort-up:before,
+.fa-sort-asc:before {
+  content: "";
+}
+
+.fa-envelope:before {
+  content: "";
+}
+
+.fa-linkedin:before {
+  content: "";
+}
+
+.fa-rotate-left:before,
+.fa-undo:before {
+  content: "";
+}
+
+.fa-legal:before,
+.fa-gavel:before {
+  content: "";
+}
+
+.fa-dashboard:before,
+.fa-tachometer:before {
+  content: "";
+}
+
+.fa-comment-o:before {
+  content: "";
+}
+
+.fa-comments-o:before {
+  content: "";
+}
+
+.fa-flash:before,
+.fa-bolt:before {
+  content: "";
+}
+
+.fa-sitemap:before {
+  content: "";
+}
+
+.fa-umbrella:before {
+  content: "";
+}
+
+.fa-paste:before,
+.fa-clipboard:before {
+  content: "";
+}
+
+.fa-lightbulb-o:before {
+  content: "";
+}
+
+.fa-exchange:before {
+  content: "";
+}
+
+.fa-cloud-download:before {
+  content: "";
+}
+
+.fa-cloud-upload:before {
+  content: "";
+}
+
+.fa-user-md:before {
+  content: "";
+}
+
+.fa-stethoscope:before {
+  content: "";
+}
+
+.fa-suitcase:before {
+  content: "";
+}
+
+.fa-bell-o:before {
+  content: "";
+}
+
+.fa-coffee:before {
+  content: "";
+}
+
+.fa-cutlery:before {
+  content: "";
+}
+
+.fa-file-text-o:before {
+  content: "";
+}
+
+.fa-building-o:before {
+  content: "";
+}
+
+.fa-hospital-o:before {
+  content: "";
+}
+
+.fa-ambulance:before {
+  content: "";
+}
+
+.fa-medkit:before {
+  content: "";
+}
+
+.fa-fighter-jet:before {
+  content: "";
+}
+
+.fa-beer:before {
+  content: "";
+}
+
+.fa-h-square:before {
+  content: "";
+}
+
+.fa-plus-square:before {
+  content: "";
+}
+
+.fa-angle-double-left:before {
+  content: "";
+}
+
+.fa-angle-double-right:before {
+  content: "";
+}
+
+.fa-angle-double-up:before {
+  content: "";
+}
+
+.fa-angle-double-down:before {
+  content: "";
+}
+
+.fa-angle-left:before {
+  content: "";
+}
+
+.fa-angle-right:before {
+  content: "";
+}
+
+.fa-angle-up:before {
+  content: "";
+}
+
+.fa-angle-down:before {
+  content: "";
+}
+
+.fa-desktop:before {
+  content: "";
+}
+
+.fa-laptop:before {
+  content: "";
+}
+
+.fa-tablet:before {
+  content: "";
+}
+
+.fa-mobile-phone:before,
+.fa-mobile:before {
+  content: "";
+}
+
+.fa-circle-o:before {
+  content: "";
+}
+
+.fa-quote-left:before {
+  content: "";
+}
+
+.fa-quote-right:before {
+  content: "";
+}
+
+.fa-spinner:before {
+  content: "";
+}
+
+.fa-circle:before {
+  content: "";
+}
+
+.fa-mail-reply:before,
+.fa-reply:before {
+  content: "";
+}
+
+.fa-github-alt:before {
+  content: "";
+}
+
+.fa-folder-o:before {
+  content: "";
+}
+
+.fa-folder-open-o:before {
+  content: "";
+}
+
+.fa-smile-o:before {
+  content: "";
+}
+
+.fa-frown-o:before {
+  content: "";
+}
+
+.fa-meh-o:before {
+  content: "";
+}
+
+.fa-gamepad:before {
+  content: "";
+}
+
+.fa-keyboard-o:before {
+  content: "";
+}
+
+.fa-flag-o:before {
+  content: "";
+}
+
+.fa-flag-checkered:before {
+  content: "";
+}
+
+.fa-terminal:before {
+  content: "";
+}
+
+.fa-code:before {
+  content: "";
+}
+
+.fa-mail-reply-all:before,
+.fa-reply-all:before {
+  content: "";
+}
+
+.fa-star-half-empty:before,
+.fa-star-half-full:before,
+.fa-star-half-o:before {
+  content: "";
+}
+
+.fa-location-arrow:before {
+  content: "";
+}
+
+.fa-crop:before {
+  content: "";
+}
+
+.fa-code-fork:before {
+  content: "";
+}
+
+.fa-unlink:before,
+.fa-chain-broken:before {
+  content: "";
+}
+
+.fa-question:before {
+  content: "";
+}
+
+.fa-info:before {
+  content: "";
+}
+
+.fa-exclamation:before {
+  content: "";
+}
+
+.fa-superscript:before {
+  content: "";
+}
+
+.fa-subscript:before {
+  content: "";
+}
+
+.fa-eraser:before {
+  content: "";
+}
+
+.fa-puzzle-piece:before {
+  content: "";
+}
+
+.fa-microphone:before {
+  content: "";
+}
+
+.fa-microphone-slash:before {
+  content: "";
+}
+
+.fa-shield:before {
+  content: "";
+}
+
+.fa-calendar-o:before {
+  content: "";
+}
+
+.fa-fire-extinguisher:before {
+  content: "";
+}
+
+.fa-rocket:before {
+  content: "";
+}
+
+.fa-maxcdn:before {
+  content: "";
+}
+
+.fa-chevron-circle-left:before {
+  content: "";
+}
+
+.fa-chevron-circle-right:before {
+  content: "";
+}
+
+.fa-chevron-circle-up:before {
+  content: "";
+}
+
+.fa-chevron-circle-down:before {
+  content: "";
+}
+
+.fa-html5:before {
+  content: "";
+}
+
+.fa-css3:before {
+  content: "";
+}
+
+.fa-anchor:before {
+  content: "";
+}
+
+.fa-unlock-alt:before {
+  content: "";
+}
+
+.fa-bullseye:before {
+  content: "";
+}
+
+.fa-ellipsis-h:before {
+  content: "";
+}
+
+.fa-ellipsis-v:before {
+  content: "";
+}
+
+.fa-rss-square:before {
+  content: "";
+}
+
+.fa-play-circle:before {
+  content: "";
+}
+
+.fa-ticket:before {
+  content: "";
+}
+
+.fa-minus-square:before {
+  content: "";
+}
+
+.fa-minus-square-o:before {
+  content: "";
+}
+
+.fa-level-up:before {
+  content: "";
+}
+
+.fa-level-down:before {
+  content: "";
+}
+
+.fa-check-square:before {
+  content: "";
+}
+
+.fa-pencil-square:before {
+  content: "";
+}
+
+.fa-external-link-square:before {
+  content: "";
+}
+
+.fa-share-square:before {
+  content: "";
+}
+
+.fa-compass:before {
+  content: "";
+}
+
+.fa-toggle-down:before,
+.fa-caret-square-o-down:before {
+  content: "";
+}
+
+.fa-toggle-up:before,
+.fa-caret-square-o-up:before {
+  content: "";
+}
+
+.fa-toggle-right:before,
+.fa-caret-square-o-right:before {
+  content: "";
+}
+
+.fa-euro:before,
+.fa-eur:before {
+  content: "";
+}
+
+.fa-gbp:before {
+  content: "";
+}
+
+.fa-dollar:before,
+.fa-usd:before {
+  content: "";
+}
+
+.fa-rupee:before,
+.fa-inr:before {
+  content: "";
+}
+
+.fa-cny:before,
+.fa-rmb:before,
+.fa-yen:before,
+.fa-jpy:before {
+  content: "";
+}
+
+.fa-ruble:before,
+.fa-rouble:before,
+.fa-rub:before {
+  content: "";
+}
+
+.fa-won:before,
+.fa-krw:before {
+  content: "";
+}
+
+.fa-bitcoin:before,
+.fa-btc:before {
+  content: "";
+}
+
+.fa-file:before {
+  content: "";
+}
+
+.fa-file-text:before {
+  content: "";
+}
+
+.fa-sort-alpha-asc:before {
+  content: "";
+}
+
+.fa-sort-alpha-desc:before {
+  content: "";
+}
+
+.fa-sort-amount-asc:before {
+  content: "";
+}
+
+.fa-sort-amount-desc:before {
+  content: "";
+}
+
+.fa-sort-numeric-asc:before {
+  content: "";
+}
+
+.fa-sort-numeric-desc:before {
+  content: "";
+}
+
+.fa-thumbs-up:before {
+  content: "";
+}
+
+.fa-thumbs-down:before {
+  content: "";
+}
+
+.fa-youtube-square:before {
+  content: "";
+}
+
+.fa-youtube:before {
+  content: "";
+}
+
+.fa-xing:before {
+  content: "";
+}
+
+.fa-xing-square:before {
+  content: "";
+}
+
+.fa-youtube-play:before {
+  content: "";
+}
+
+.fa-dropbox:before {
+  content: "";
+}
+
+.fa-stack-overflow:before {
+  content: "";
+}
+
+.fa-instagram:before {
+  content: "";
+}
+
+.fa-flickr:before {
+  content: "";
+}
+
+.fa-adn:before {
+  content: "";
+}
+
+.fa-bitbucket:before {
+  content: "";
+}
+
+.fa-bitbucket-square:before {
+  content: "";
+}
+
+.fa-tumblr:before {
+  content: "";
+}
+
+.fa-tumblr-square:before {
+  content: "";
+}
+
+.fa-long-arrow-down:before {
+  content: "";
+}
+
+.fa-long-arrow-up:before {
+  content: "";
+}
+
+.fa-long-arrow-left:before {
+  content: "";
+}
+
+.fa-long-arrow-right:before {
+  content: "";
+}
+
+.fa-apple:before {
+  content: "";
+}
+
+.fa-windows:before {
+  content: "";
+}
+
+.fa-android:before {
+  content: "";
+}
+
+.fa-linux:before {
+  content: "";
+}
+
+.fa-dribbble:before {
+  content: "";
+}
+
+.fa-skype:before {
+  content: "";
+}
+
+.fa-foursquare:before {
+  content: "";
+}
+
+.fa-trello:before {
+  content: "";
+}
+
+.fa-female:before {
+  content: "";
+}
+
+.fa-male:before {
+  content: "";
+}
+
+.fa-gittip:before,
+.fa-gratipay:before {
+  content: "";
+}
+
+.fa-sun-o:before {
+  content: "";
+}
+
+.fa-moon-o:before {
+  content: "";
+}
+
+.fa-archive:before {
+  content: "";
+}
+
+.fa-bug:before {
+  content: "";
+}
+
+.fa-vk:before {
+  content: "";
+}
+
+.fa-weibo:before {
+  content: "";
+}
+
+.fa-renren:before {
+  content: "";
+}
+
+.fa-pagelines:before {
+  content: "";
+}
+
+.fa-stack-exchange:before {
+  content: "";
+}
+
+.fa-arrow-circle-o-right:before {
+  content: "";
+}
+
+.fa-arrow-circle-o-left:before {
+  content: "";
+}
+
+.fa-toggle-left:before,
+.fa-caret-square-o-left:before {
+  content: "";
+}
+
+.fa-dot-circle-o:before {
+  content: "";
+}
+
+.fa-wheelchair:before {
+  content: "";
+}
+
+.fa-vimeo-square:before {
+  content: "";
+}
+
+.fa-turkish-lira:before,
+.fa-try:before {
+  content: "";
+}
+
+.fa-plus-square-o:before {
+  content: "";
+}
+
+.fa-space-shuttle:before {
+  content: "";
+}
+
+.fa-slack:before {
+  content: "";
+}
+
+.fa-envelope-square:before {
+  content: "";
+}
+
+.fa-wordpress:before {
+  content: "";
+}
+
+.fa-openid:before {
+  content: "";
+}
+
+.fa-institution:before,
+.fa-bank:before,
+.fa-university:before {
+  content: "";
+}
+
+.fa-mortar-board:before,
+.fa-graduation-cap:before {
+  content: "";
+}
+
+.fa-yahoo:before {
+  content: "";
+}
+
+.fa-google:before {
+  content: "";
+}
+
+.fa-reddit:before {
+  content: "";
+}
+
+.fa-reddit-square:before {
+  content: "";
+}
+
+.fa-stumbleupon-circle:before {
+  content: "";
+}
+
+.fa-stumbleupon:before {
+  content: "";
+}
+
+.fa-delicious:before {
+  content: "";
+}
+
+.fa-digg:before {
+  content: "";
+}
+
+.fa-pied-piper:before {
+  content: "";
+}
+
+.fa-pied-piper-alt:before {
+  content: "";
+}
+
+.fa-drupal:before {
+  content: "";
+}
+
+.fa-joomla:before {
+  content: "";
+}
+
+.fa-language:before {
+  content: "";
+}
+
+.fa-fax:before {
+  content: "";
+}
+
+.fa-building:before {
+  content: "";
+}
+
+.fa-child:before {
+  content: "";
+}
+
+.fa-paw:before {
+  content: "";
+}
+
+.fa-spoon:before {
+  content: "";
+}
+
+.fa-cube:before {
+  content: "";
+}
+
+.fa-cubes:before {
+  content: "";
+}
+
+.fa-behance:before {
+  content: "";
+}
+
+.fa-behance-square:before {
+  content: "";
+}
+
+.fa-steam:before {
+  content: "";
+}
+
+.fa-steam-square:before {
+  content: "";
+}
+
+.fa-recycle:before {
+  content: "";
+}
+
+.fa-automobile:before,
+.fa-car:before {
+  content: "";
+}
+
+.fa-cab:before,
+.fa-taxi:before {
+  content: "";
+}
+
+.fa-tree:before {
+  content: "";
+}
+
+.fa-spotify:before {
+  content: "";
+}
+
+.fa-deviantart:before {
+  content: "";
+}
+
+.fa-soundcloud:before {
+  content: "";
+}
+
+.fa-database:before {
+  content: "";
+}
+
+.fa-file-pdf-o:before {
+  content: "";
+}
+
+.fa-file-word-o:before {
+  content: "";
+}
+
+.fa-file-excel-o:before {
+  content: "";
+}
+
+.fa-file-powerpoint-o:before {
+  content: "";
+}
+
+.fa-file-photo-o:before,
+.fa-file-picture-o:before,
+.fa-file-image-o:before {
+  content: "";
+}
+
+.fa-file-zip-o:before,
+.fa-file-archive-o:before {
+  content: "";
+}
+
+.fa-file-sound-o:before,
+.fa-file-audio-o:before {
+  content: "";
+}
+
+.fa-file-movie-o:before,
+.fa-file-video-o:before {
+  content: "";
+}
+
+.fa-file-code-o:before {
+  content: "";
+}
+
+.fa-vine:before {
+  content: "";
+}
+
+.fa-codepen:before {
+  content: "";
+}
+
+.fa-jsfiddle:before {
+  content: "";
+}
+
+.fa-life-bouy:before,
+.fa-life-buoy:before,
+.fa-life-saver:before,
+.fa-support:before,
+.fa-life-ring:before {
+  content: "";
+}
+
+.fa-circle-o-notch:before {
+  content: "";
+}
+
+.fa-ra:before,
+.fa-rebel:before {
+  content: "";
+}
+
+.fa-ge:before,
+.fa-empire:before {
+  content: "";
+}
+
+.fa-git-square:before {
+  content: "";
+}
+
+.fa-git:before {
+  content: "";
+}
+
+.fa-hacker-news:before {
+  content: "";
+}
+
+.fa-tencent-weibo:before {
+  content: "";
+}
+
+.fa-qq:before {
+  content: "";
+}
+
+.fa-wechat:before,
+.fa-weixin:before {
+  content: "";
+}
+
+.fa-send:before,
+.fa-paper-plane:before {
+  content: "";
+}
+
+.fa-send-o:before,
+.fa-paper-plane-o:before {
+  content: "";
+}
+
+.fa-history:before {
+  content: "";
+}
+
+.fa-genderless:before,
+.fa-circle-thin:before {
+  content: "";
+}
+
+.fa-header:before {
+  content: "";
+}
+
+.fa-paragraph:before {
+  content: "";
+}
+
+.fa-sliders:before {
+  content: "";
+}
+
+.fa-share-alt:before {
+  content: "";
+}
+
+.fa-share-alt-square:before {
+  content: "";
+}
+
+.fa-bomb:before {
+  content: "";
+}
+
+.fa-soccer-ball-o:before,
+.fa-futbol-o:before {
+  content: "";
+}
+
+.fa-tty:before {
+  content: "";
+}
+
+.fa-binoculars:before {
+  content: "";
+}
+
+.fa-plug:before {
+  content: "";
+}
+
+.fa-slideshare:before {
+  content: "";
+}
+
+.fa-twitch:before {
+  content: "";
+}
+
+.fa-yelp:before {
+  content: "";
+}
+
+.fa-newspaper-o:before {
+  content: "";
+}
+
+.fa-wifi:before {
+  content: "";
+}
+
+.fa-calculator:before {
+  content: "";
+}
+
+.fa-paypal:before {
+  content: "";
+}
+
+.fa-google-wallet:before {
+  content: "";
+}
+
+.fa-cc-visa:before {
+  content: "";
+}
+
+.fa-cc-mastercard:before {
+  content: "";
+}
+
+.fa-cc-discover:before {
+  content: "";
+}
+
+.fa-cc-amex:before {
+  content: "";
+}
+
+.fa-cc-paypal:before {
+  content: "";
+}
+
+.fa-cc-stripe:before {
+  content: "";
+}
+
+.fa-bell-slash:before {
+  content: "";
+}
+
+.fa-bell-slash-o:before {
+  content: "";
+}
+
+.fa-trash:before {
+  content: "";
+}
+
+.fa-copyright:before {
+  content: "";
+}
+
+.fa-at:before {
+  content: "";
+}
+
+.fa-eyedropper:before {
+  content: "";
+}
+
+.fa-paint-brush:before {
+  content: "";
+}
+
+.fa-birthday-cake:before {
+  content: "";
+}
+
+.fa-area-chart:before {
+  content: "";
+}
+
+.fa-pie-chart:before {
+  content: "";
+}
+
+.fa-line-chart:before {
+  content: "";
+}
+
+.fa-lastfm:before {
+  content: "";
+}
+
+.fa-lastfm-square:before {
+  content: "";
+}
+
+.fa-toggle-off:before {
+  content: "";
+}
+
+.fa-toggle-on:before {
+  content: "";
+}
+
+.fa-bicycle:before {
+  content: "";
+}
+
+.fa-bus:before {
+  content: "";
+}
+
+.fa-ioxhost:before {
+  content: "";
+}
+
+.fa-angellist:before {
+  content: "";
+}
+
+.fa-cc:before {
+  content: "";
+}
+
+.fa-shekel:before,
+.fa-sheqel:before,
+.fa-ils:before {
+  content: "";
+}
+
+.fa-meanpath:before {
+  content: "";
+}
+
+.fa-buysellads:before {
+  content: "";
+}
+
+.fa-connectdevelop:before {
+  content: "";
+}
+
+.fa-dashcube:before {
+  content: "";
+}
+
+.fa-forumbee:before {
+  content: "";
+}
+
+.fa-leanpub:before {
+  content: "";
+}
+
+.fa-sellsy:before {
+  content: "";
+}
+
+.fa-shirtsinbulk:before {
+  content: "";
+}
+
+.fa-simplybuilt:before {
+  content: "";
+}
+
+.fa-skyatlas:before {
+  content: "";
+}
+
+.fa-cart-plus:before {
+  content: "";
+}
+
+.fa-cart-arrow-down:before {
+  content: "";
+}
+
+.fa-diamond:before {
+  content: "";
+}
+
+.fa-ship:before {
+  content: "";
+}
+
+.fa-user-secret:before {
+  content: "";
+}
+
+.fa-motorcycle:before {
+  content: "";
+}
+
+.fa-street-view:before {
+  content: "";
+}
+
+.fa-heartbeat:before {
+  content: "";
+}
+
+.fa-venus:before {
+  content: "";
+}
+
+.fa-mars:before {
+  content: "";
+}
+
+.fa-mercury:before {
+  content: "";
+}
+
+.fa-transgender:before {
+  content: "";
+}
+
+.fa-transgender-alt:before {
+  content: "";
+}
+
+.fa-venus-double:before {
+  content: "";
+}
+
+.fa-mars-double:before {
+  content: "";
+}
+
+.fa-venus-mars:before {
+  content: "";
+}
+
+.fa-mars-stroke:before {
+  content: "";
+}
+
+.fa-mars-stroke-v:before {
+  content: "";
+}
+
+.fa-mars-stroke-h:before {
+  content: "";
+}
+
+.fa-neuter:before {
+  content: "";
+}
+
+.fa-facebook-official:before {
+  content: "";
+}
+
+.fa-pinterest-p:before {
+  content: "";
+}
+
+.fa-whatsapp:before {
+  content: "";
+}
+
+.fa-server:before {
+  content: "";
+}
+
+.fa-user-plus:before {
+  content: "";
+}
+
+.fa-user-times:before {
+  content: "";
+}
+
+.fa-hotel:before,
+.fa-bed:before {
+  content: "";
+}
+
+.fa-viacoin:before {
+  content: "";
+}
+
+.fa-train:before {
+  content: "";
+}
+
+.fa-subway:before {
+  content: "";
+}
+
+.fa-medium:before {
+  content: "";
+}
+
+/* makes the font 33% larger relative to the icon container */
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-ul {
+  padding-left: 0;
+  margin-left: 2.1428571429em;
+  list-style-type: none;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  position: absolute;
+  left: -2.1428571429em;
+  width: 2.1428571429em;
+  top: 0.1428571429em;
+  text-align: center;
+}
+.fa-li.fa-lg {
+  left: -1.8571428571em;
+}
+
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?v=4.3.0");
+  src: url("../fonts/font-awesome/fontawesome-webfont.eot?#iefix&v=4.3.0") format("embedded-opentype"), url("../fonts/font-awesome/fontawesome-webfont.woff2?v=4.3.0") format("woff2"), url("../fonts/font-awesome/fontawesome-webfont.woff?v=4.3.0") format("woff"), url("../fonts/font-awesome/fontawesome-webfont.ttf?v=4.3.0") format("truetype"), url("../fonts/font-awesome/fontawesome-webfont.svg?v=4.3.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+.fa-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical {
+  filter: none;
+}
+
+.fa-stack {
+  position: relative;
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
+  vertical-align: middle;
+}
+
+.fa-stack-1x, .fa-stack-2x {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.fa-stack-1x {
+  line-height: inherit;
+}
+
+.fa-stack-2x {
+  font-size: 2em;
+}
+
+.fa-inverse {
+  color: #fff;
+}
+
+@font-face {
+  font-family: "League Spartan";
+  src: url("../fonts/league-spartan/leaguespartan-bold.eot");
+  src: url("../fonts/league-spartan/leaguespartan-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/league-spartan/leaguespartan-bold.woff2") format("woff2"), url("../fonts/league-spartan/leaguespartan-bold.woff") format("woff"), url("../fonts/league-spartan/leaguespartan-bold.ttf") format("truetype"), url("../fonts/league-spartan/leaguespartan-bold.svg#league_spartanbold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+}
+.myr-container {
+  background-color: #fff;
+  position: absolute !important;
+  z-index: 1000;
+  border-radius: 2px;
+  border-top: 1px solid #d9d9d9;
+  font-family: Arial, sans-serif;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 0px;
+  margin-top: 17px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.myr-item {
+  cursor: default;
+  padding: 0 4px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 30px;
+  text-align: left;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 15px 0px;
+  border: 0px;
+  font-size: 15px;
+  color: #000;
+}
+
+.myr-item:hover {
+  background: #F5F5F5;
+}
+
+.myr-matched {
+  font-weight: 500;
+  background: #F8E81C;
+}
+
+.isLeft {
+  float: left;
+}
+
+.isRight {
+  float: right;
+}
+
+.allCaps {
+  text-transform: uppercase;
+}
+
+/*
+  We don't use bootstrap. Stop asking.
+*/
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0px;
+  padding: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 16px;
+  line-height: 1.8;
+  color: #333333;
+  background-color: #fff;
+}
+
+h1.white, h2.white, h3.white, h4.white, .white.logo.withText::after, h5.white, button.white, input.white[type=submit], h6.white, p.white, text.white {
+  color: #fff;
+}
+h1.darkblue, h2.darkblue, h3.darkblue, h4.darkblue, .darkblue.logo.withText::after, h5.darkblue, button.darkblue, input.darkblue[type=submit], h6.darkblue, p.darkblue, text.darkblue {
+  color: #232648;
+}
+h1.blue, h2.blue, h3.blue, h4.blue, .blue.logo.withText::after, h5.blue, button.blue, input.blue[type=submit], h6.blue, p.blue, text.blue {
+  color: #364B91;
+}
+h1.lightblue, h2.lightblue, h3.lightblue, h4.lightblue, .lightblue.logo.withText::after, h5.lightblue, button.lightblue, input.lightblue[type=submit], h6.lightblue, p.lightblue, text.lightblue {
+  color: #73C5FF;
+}
+h1.yellow, h2.yellow, h3.yellow, h4.yellow, .yellow.logo.withText::after, h5.yellow, button.yellow, input.yellow[type=submit], h6.yellow, p.yellow, text.yellow {
+  color: #E5DE7A;
+}
+h1.hiYellow, h2.hiYellow, h3.hiYellow, h4.hiYellow, .hiYellow.logo.withText::after, h5.hiYellow, button.hiYellow, input.hiYellow[type=submit], h6.hiYellow, p.hiYellow, text.hiYellow {
+  color: #E9B201;
+}
+h1.black, h2.black, h3.black, h4.black, .black.logo.withText::after, h5.black, button.black, input.black[type=submit], h6.black, p.black, text.black {
+  color: #090909;
+}
+h1.bold, h2.bold, h3.bold, h4.bold, .bold.logo.withText::after, h5.bold, button.bold, input.bold[type=submit], h6.bold, p.bold, text.bold {
+  font-weight: 600;
+}
+
+h1, h2, h3, h4, .logo.withText::after, h5, button, input[type=submit], h6 {
+  margin: 0px;
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #333333;
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4, .logo.withText::after {
+  font-size: 30px;
+}
+
+h5, button, input[type=submit] {
+  font-size: 21px;
+}
+
+h6 {
+  color: #8C8C8C;
+  font-size: 18px;
+}
+h6.infobox {
+  background: #090909;
+  color: #fff;
+  display: inline-block;
+  padding: 3px 20px 0px;
+  line-height: 50px;
+  box-sizing: border-box;
+  height: 50px;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: inherit;
+}
+
+.clear {
+  clear: both;
+}
+
+.center {
+  margin: 0 auto;
+  position: relative;
+  padding: 0px 60px;
+  max-width: 1440px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contentTitle {
+  margin: 91px 0px;
+}
+
+.isCentered {
+  text-align: center;
+}
+
+button, input[type=submit] {
+  border: 0px;
+  padding: 0px;
+  display: block;
+  border-radius: 2px;
+  cursor: pointer;
+  color: #090909;
+  background-color: #fff;
+}
+button.darkblue, input.darkblue[type=submit] {
+  color: #fff;
+  background-color: #232648;
+}
+button.blue, input.blue[type=submit] {
+  color: #fff;
+  background-color: #364B91;
+}
+button.lightblue, input.lightblue[type=submit] {
+  color: #fff;
+  background-color: #73C5FF;
+}
+button.yellow, input.yellow[type=submit] {
+  color: #090909;
+  background-color: #E5DE7A;
+}
+button.hiYellow, input.hiYellow[type=submit] {
+  color: #fff;
+  background-color: #E9B201;
+}
+button.black, input.black[type=submit] {
+  color: #fff;
+  background-color: #090909;
+}
+button.white, input.white[type=submit] {
+  color: #090909;
+  background-color: #fff;
+}
+button.red, input.red[type=submit] {
+  color: #fff;
+  background-color: #bf2d2d;
+}
+button.override.ToWhiteText, input.override.ToWhiteText[type=submit] {
+  color: #fff;
+}
+button.text-center, input.text-center[type=submit] {
+  text-align: center;
+}
+button.normal, input.normal[type=submit] {
+  font-size: 16px;
+  padding: 20px;
+  min-width: 240px;
+  margin: 40px 0px;
+}
+
+button:hover, input[type=submit]:hover, a:hover, a.noline:hover {
+  text-decoration: none;
+}
+
+form {
+  margin: 40px 0px;
+}
+
+label {
+  display: block;
+  font-size: 18px;
+  color: inherit;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  max-width: 760px;
+  width: 100%;
+  padding: 15px 22px;
+  height: auto;
+  border-radius: 2px;
+  font-size: 18px;
+  border: 0px;
+  box-sizing: border-box;
+  box-shadow: none;
+  line-height: 2;
+}
+input.onWhite, textarea.onWhite {
+  background: #F4F4F4;
+}
+
+textarea {
+  resize: none;
+  padding: 22px 22px;
+  height: 300px;
+}
+
+.form-block {
+  margin-bottom: 30px;
+}
+
+p {
+  max-width: 600px;
+  line-height: 2;
+  margin: 20px 0px;
+}
+p a {
+  color: #364B91;
+}
+p a:hover {
+  text-decoration: underline;
+}
+p.withTitle {
+  margin-top: 0px;
+}
+
+.text-block {
+  margin: 20px 0px;
+}
+.text-block p {
+  margin: 0px;
+}
+
+.logo {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background-image: url("/img/hackathon_brand/transparent_logo_by_normal.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.logo.withText {
+  width: 236px;
+  position: relative;
+}
+.logo.withText::after {
+  content: "HackMerced";
+  margin-left: 10px;
+  left: 36px;
+  position: absolute;
+  height: 36px;
+  line-height: 53px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loader-overlay {
+  z-index: 99;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  display: none;
+  height: 100%;
+}
+
+.loader-o-content {
+  margin-top: -63px;
+  text-align: center;
+  top: 50%;
+  width: 100%;
+  position: absolute;
+}
+
+.loader-o-loader {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  border: 5px solid rgba(54, 75, 145, 0.2);
+  border-top-color: #364B91;
+  animation: spin 1s infinite linear;
+}
+
+.loader-o-text {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 21px;
+  letter-spacing: 1px;
+  color: #364B91;
+}
+
+.hidden-content {
+  display: none;
+}
+
+.transparent-content {
+  opacity: 0;
+}
+
+.list-title {
+  font-weight: 600;
+}
+
+li {
+  margin: 0px 45px;
+  line-height: 2;
+}
+
+a.load {
+  position: relative;
+  width: auto;
+}
+
+a.load::after {
+  height: 2px;
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  display: block;
+  background: #090909;
+  width: 0;
+  border-radius: 4px;
+  -webkit-transition: width 500ms;
+  transition: width 500ms;
+}
+
+a.load.selected::after, a.load:hover::after {
+  width: 100%;
+}
+
+input {
+  -webkit-appearance: none;
+}
+
+*:hover {
+  text-decoration: none;
+}
+
+*:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.c3-tooltip-container table {
+  background: #fff;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.18);
+  border-radius: 2px;
+  padding: 10px;
+}
+.c3-tooltip-container table tr td:nth-child(1) {
+  padding-right: 20px;
+}
+
+.blink {
+  animation: blink 1s linear infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+body.dark header {
+  color: #fff;
+  z-index: 10;
+  color: #fff;
+}
+body.dark header .logo {
+  background-image: url("/img/hackathon_brand/transparent_logo_white_by_normal.png");
+}
+body.dark header .logo.withText::after {
+  color: #fff;
+}
+body.dark header nav a {
+  color: #fff;
+}
+body.dark header nav a::after {
+  background: #fff;
+}
+body.dark p {
+  color: #534E5F;
+}
+body.dark footer {
+  color: #fff;
+}
+
+container {
+  display: block;
+}
+container.isFlex {
+  display: flex;
+}
+container.FlexBetween {
+  justify-content: space-between;
+}
+
+section {
+  position: relative;
+  background-color: transparent;
+  color: inherit;
+  height: 400px;
+}
+section.partOfBackGround {
+  background-color: transparent;
+  height: auto;
+}
+section.isFull > .content {
+  padding: 40px 60px;
+}
+section.tall {
+  height: 600px;
+}
+section .identifier {
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+  color: #fff;
+  font-size: 14px;
+}
+section .content, section .small-content {
+  padding: 40px;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+section .small-content {
+  padding: 50px 60px;
+}
+section.isHalf {
+  width: 50%;
+}
+section.isFull {
+  width: 100%;
+}
+section.is66 {
+  width: 66.66%;
+}
+section.is33 {
+  width: 33.33%;
+}
+section.isThird {
+  width: 375px;
+}
+section.isTotal {
+  height: auto;
+}
+section.is812 {
+  width: 812px;
+}
+section.is785 {
+  width: calc(100% - 375px);
+}
+section.is345 {
+  width: 345px;
+}
+section.darkblue {
+  color: #fff;
+  background-color: #232648;
+}
+section.blue {
+  color: #fff;
+  background-color: #364B91;
+}
+section.lightblue {
+  color: #fff;
+  background-color: #73C5FF;
+}
+section.yellow {
+  color: #090909;
+  background-color: #E5DE7A;
+}
+section.hiYellow {
+  color: #fff;
+  background-color: #E9B201;
+}
+section.black {
+  color: #fff;
+  background-color: #090909;
+}
+section.white {
+  color: #090909;
+  background-color: #fff;
+}
+section.red {
+  color: #fff;
+  background-color: #bf2d2d;
+}
+section.white .content {
+  padding: 40px 0px;
+}
+section.withAPicture {
+  color: #E5DE7A;
+  background-color: transparent;
+  background-size: auto;
+  background-position: center center;
+}
+section.withAPicture img {
+  width: 100%;
+}
+section.withAPicture::after {
+  content: "";
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: 0.25;
+  top: 0;
+  z-index: 0;
+  left: 0;
+}
+
+.u-verticalCenterIntheMiddleofASection {
+  top: 50%;
+  position: absolute;
+}
+
+.useLeague {
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+}
+
+.ad-helix-container {
+  font-family: "Consolas", "Lucida Console", sans-serif;
+  height: 259px;
+}
+
+.ad-helix-user {
+  float: left;
+  width: 100px;
+  height: 100%;
+}
+
+.ad-helix-content {
+  width: calc(100% - 100px);
+  float: left;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+.ad-helix-post {
+  width: 100%;
+}
+
+.ad-helix-content-response {
+  color: #364B91;
+}
+
+.ad-helix-post:nth-child(1) {
+  margin-top: 0px;
+}
+
+.ad-helix-post {
+  margin-top: 20px;
+}
+
+.apply-holder {
+  display: block;
+  position: absolute;
+  background: #fff;
+  width: 100%;
+  z-index: 5;
+  height: 1000px;
+}
+
+#applyNow {
+  display: none;
+}
+
+.apply-time-sections {
+  background: #F7F7F7;
+  border-radius: 5px;
+  display: flex;
+  margin: 50px 0px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.apply-completecount {
+  font-size: 12px;
+  color: #979797;
+}
+
+.apply-small-print {
+  padding: 20px;
+  font-size: 12px;
+  color: #989898;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+
+.apply-time-section {
+  text-align: center;
+  width: 25%;
+  padding: 20px;
+  min-width: 200px;
+  box-sizing: border-box;
+  color: #999999;
+  cursor: pointer;
+}
+.apply-time-section.selected {
+  color: #232648;
+}
+
+.apply-time-section:hover:not(.selected) {
+  transition: color 500ms ease-in;
+  color: #364B91;
+}
+
+.pac-matched {
+  font-weight: 500 !important;
+  background: #F8E81C !important;
+}
+
+.pac-item {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 15px 0px;
+  border: 0px;
+  font-size: 15px;
+}
+.pac-item .pac-item-query {
+  font-size: 15px;
+}
+.pac-item:hover {
+  background: #F5F5F5 !important;
+}
+
+.pac-container {
+  border: 0px;
+  margin-top: 17px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.pac-logo::after {
+  padding: 10px !important;
+  border-top: 1px solid #e6e6e6 !important;
+  background-position: center;
+}
+
+.apply-form {
+  display: block;
+  position: relative;
+}
+
+.apply-section-ConfirmAcceptance .apply-block {
+  display: none;
+}
+
+#usr-confirmed-in {
+  display: none;
+}
+
+form.apply-form label {
+  /* Give us your email!: */
+  font-weight: 600;
+  font-size: 18px;
+  color: #232648;
+  margin: 0px;
+  width: calc(100% - 85px);
+  letter-spacing: 0;
+}
+form.apply-form .apply-description {
+  font-size: 16px;
+  color: #767676;
+  letter-spacing: 0;
+  margin-bottom: 12px;
+}
+form.apply-form input {
+  line-height: 2;
+  padding: 0px 20px;
+  background: #FFFFFF;
+  font-size: 16px;
+  max-width: 500px;
+  height: 65px;
+  border: 1px solid #DCDCDC;
+  border-radius: 2px;
+}
+form.apply-form input.small {
+  width: 100px;
+  text-align: center;
+}
+form.apply-form button, form.apply-form input[type=submit] {
+  color: #fff;
+  background-color: #232648;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: inherit;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  transition: 500ms all;
+}
+form.apply-form button.fp__btn, form.apply-form input.fp__btn[type=submit] {
+  height: 65px;
+  border-radius: 5px;
+  line-height: 65px;
+  padding: 0px;
+  width: 200px;
+  background-position: 15px center;
+}
+form.apply-form button.fp__btn::after, form.apply-form input.fp__btn[type=submit]::after {
+  top: 32px;
+}
+form.apply-form .apply-btn-bottom {
+  margin-top: 40px;
+}
+form.apply-form .apply-block {
+  background-color: #F7F7F7;
+  max-width: 600px;
+  padding: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+form.apply-form .apply-item {
+  margin: 50px 0px;
+  max-width: 600px;
+  border-radius: 2px;
+  width: 100%;
+  box-sizing: border-box;
+}
+form.apply-form .apply-item.hidden {
+  display: none;
+}
+form.apply-form .apply-item.apply-item-errored {
+  border: 2px solid #fec4c4;
+}
+form.apply-form .apply-item.required::after {
+  content: "Required";
+  position: absolute;
+  top: 34px;
+  background: #f9ff00;
+  padding: 2px 10px;
+  right: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 2px;
+}
+form.apply-form .apply-section-GettingToKnowYou .apply-btn-bottom {
+  margin: 0px 20px;
+}
+form.apply-form .apply-section-GettingToKnowYou .apply-item {
+  margin: 20px 0px;
+  position: relative;
+  padding: 30px 20px;
+}
+form.apply-form .apply-section-GettingToKnowYou .apply-item:hover, form.apply-form .apply-section-GettingToKnowYou .apply-item:focus {
+  box-shadow: 1px 1px 3px 4px rgba(200, 200, 200, 0.3);
+  transition: 500ms all;
+  border-radius: 2px;
+}
+form.apply-form .new-user-mod {
+  display: block;
+}
+form.apply-form .old-user-mod {
+  display: none;
+}
+form.apply-form .old-user .old-user-mod {
+  display: block;
+}
+form.apply-form .old-user .new-user-mod {
+  display: none;
+}
+form.apply-form .apply-sub-description {
+  font-size: 14px;
+  color: #767676;
+  letter-spacing: 0;
+  margin-left: 25px;
+}
+
+.apply-options {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.apply-options.inItem {
+  margin: 25px 0px;
+}
+
+.apply-option {
+  transition: all 500ms ease-out;
+  width: calc(50% - 25px);
+  margin: 0px 0px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid #B8B8B8;
+  position: relative;
+  height: 65px;
+  min-width: 225px;
+}
+.apply-option:not(.big) {
+  text-align: center;
+  line-height: 65px;
+}
+.apply-option:not(.big).selected {
+  background-color: #232648;
+  border: 2px solid #232648;
+  color: #fff;
+}
+.apply-option:not(.big):hover {
+  border: 2px solid #232648;
+}
+.apply-option.big .apply-option-b-text {
+  line-height: 1;
+  position: absolute;
+  top: 14px;
+  left: 57px;
+}
+.apply-option.big .apply-option-b-dot {
+  width: 20px;
+  height: 20px;
+  left: 17px;
+  border: 2px solid #B8B8B8;
+  border-radius: 100%;
+  position: absolute;
+  top: 21px;
+  box-sizing: border-box;
+}
+.apply-option.big .apply-option-b-dot::after {
+  transform: scale(0);
+  transition: all 500ms ease-out;
+  background-color: #8A8A8A;
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  border-radius: 100%;
+  left: -2px;
+  top: -2px;
+}
+.apply-option.big .apply-option-b-h {
+  font-weight: 500;
+  font-size: 18px;
+  color: #272C51;
+  margin-bottom: 4px;
+}
+.apply-option.big .apply-option-b-s {
+  font-weight: 500;
+  font-size: 12px;
+  color: #8A8A8A;
+}
+.apply-option.big.selected {
+  border: 2px solid #232648;
+}
+.apply-option.big.selected .apply-option-b-dot::after {
+  background-color: #232648;
+  transform: scale(1);
+}
+.apply-option.big:hover .apply-option-b-dot::after {
+  background-color: #232648;
+  transform: scale(1);
+}
+
+.apply-option-hidden {
+  display: none;
+}
+
+.isLoneWolf, .isCollege, .isHighSchool {
+  display: none;
+}
+
+.apply-section {
+  display: none;
+}
+
+.banner-box {
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 20px 40px;
+  color: #fff;
+  margin: 20px 0px;
+}
+.banner-box.error {
+  background-color: #ff4800;
+}
+.banner-box.success {
+  background-color: #73C5FF;
+}
+
+.banner-box-x {
+  position: absolute;
+  right: 30px;
+  top: 26px;
+  cursor: pointer;
+}
+
+.banner-container {
+  position: fixed;
+  top: 0px;
+  z-index: 999;
+  padding: 0px 60px;
+  max-width: 1440px;
+  width: 100%;
+  box-sizing: border-box;
+  left: 50%;
+  margin-left: -720px;
+}
+
+@media screen and (max-width: 1439px) {
+  .banner-container {
+    margin-left: 0px;
+    left: 0;
+  }
+}
+input.errored {
+  box-shadow: 0px 0px 2px 1px #cc4242;
+  border: 0px !important;
+}
+
+footer {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+  width: 100%;
+}
+footer .content {
+  padding: 60px 0px;
+}
+
+.get-updates {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  overflow-y: auto;
+  z-index: 999;
+}
+
+.get-updates, .gu-exit {
+  display: none;
+}
+
+.gu-exit, .gu-content {
+  opacity: 0;
+}
+
+.get-updates-underlay {
+  width: 50px;
+  height: 50px;
+  right: 106px;
+  top: 120px;
+  border-radius: 100%;
+  position: fixed;
+  margin-top: -50%;
+  margin-right: -50%;
+  z-index: 1;
+  background-color: #364B91;
+}
+
+.gu-exit {
+  position: absolute;
+  right: 60px;
+  z-index: 3;
+  top: 27px;
+  cursor: pointer;
+  color: #fff;
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+}
+
+.gue-exit {
+  position: absolute;
+  right: 10px;
+  transition: right 500ms;
+}
+
+.gue-exit-button {
+  margin-left: 25px;
+  height: 68px;
+  width: 68px;
+  transition: transform 500ms;
+  background: #fff;
+  border-radius: 100px;
+  color: #364B91;
+  margin-top: -25px;
+  text-align: center;
+  line-height: 68px;
+  font-size: 18px;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.5);
+}
+
+.gu-exit:hover .gue-exit-button {
+  transform: rotate(90deg);
+}
+.gu-exit:hover .gue-exit {
+  right: 100px;
+}
+
+.gu-content {
+  margin: 70px 0px;
+  z-index: 2;
+  width: 100%;
+  position: relative;
+  color: #fff;
+}
+.gu-content h1 {
+  color: #fff;
+}
+.gu-content h4, .gu-content .logo.withText::after {
+  color: #C4C4C4;
+  max-width: 700px;
+  padding: 0px 20px 0px 0px;
+}
+.gu-content form {
+  margin-top: 45px;
+}
+.gu-content label {
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+}
+.gu-content input[type=email] {
+  background: rgba(35, 38, 72, 0.33);
+  margin-top: 10px;
+  color: #fff;
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+}
+.gu-content input[type=submit] {
+  line-height: 68px;
+  margin-top: 20px;
+  width: 240px;
+  font-size: 18px;
+  padding: 0px;
+  height: 68px;
+}
+
+header {
+  margin: 78px 0px 78px;
+  position: relative;
+  height: 36px;
+  width: 100%;
+}
+header nav {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  height: 21px;
+}
+header nav.isLeft {
+  left: 350px;
+}
+header nav.isRight {
+  right: 60px;
+}
+header nav.isRight a:last-child {
+  margin: 0px;
+}
+header nav a {
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+  color: #090909;
+  font-size: 14px;
+  display: inline;
+  margin-right: 36px;
+}
+
+.getUpdates {
+  cursor: pointer;
+}
+
+.index-HackForTheFuture {
+  line-height: 96px;
+}
+
+.index-centerTwoLinesIntheMiddle {
+  margin: 0px auto 0px;
+}
+.index-centerTwoLinesIntheMiddle h4, .index-centerTwoLinesIntheMiddle .logo.withText::after {
+  width: 300px;
+  margin: 118px auto 0px;
+}
+
+.index-showUpPicture {
+  margin-top: 94px;
+  line-height: 60px;
+}
+
+.index-hidden-overlay {
+  text-align: center;
+}
+
+.index-imageloader-overlay {
+  display: flex;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  overflow: hidden;
+  width: 100%;
+}
+
+.index-imageloader-overlay::after {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.index-imageloader {
+  cursor: pointer;
+}
+
+.index-il-image1, .index-il-image2, .index-il-image1::after, .index-il-image2::after {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative;
+  background-position: top center;
+}
+
+.index-il-image1::after, .index-il-image2::after {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  transition: top 500ms, bottom 500ms;
+  content: "";
+}
+
+.index-imageloader:hover .index-il-image1::after {
+  top: 0;
+}
+.index-imageloader:hover .index-il-image2::after {
+  bottom: 0;
+}
+
+.index-il-image1 {
+  background-image: url("https://s3-us-west-1.amazonaws.com/hackmerced/look_back_2016/9.jpg");
+}
+
+.index-il-image1::after {
+  background-image: url("https://s3-us-west-1.amazonaws.com/hackmerced/look_back_2016/16.jpg");
+  top: -100%;
+}
+
+.index-il-image2 {
+  background-image: url("https://s3-us-west-1.amazonaws.com/hackmerced/look_back_2016/2.jpg");
+}
+
+.index-il-image2::after {
+  background-image: url("https://s3-us-west-1.amazonaws.com/hackmerced/look_back_2016/13.jpg");
+  background-size: auto 100%;
+  bottom: -100%;
+}
+
+.index-HF2 {
+  display: block;
+  position: absolute;
+  margin-top: -89px;
+  background: #232648;
+  width: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.index-HF2 * {
+  white-space: nowrap;
+}
+
+.APimage {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: auto;
+  margin: 10px;
+  position: relative;
+  background-position: top center;
+}
+
+.APstats {
+  position: absolute;
+  top: 0px;
+  z-index: 9;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  display: none;
+  color: #fff;
+}
+
+.withAP {
+  overflow: hidden;
+}
+
+.image-shareImages {
+  min-height: 1000px;
+}
+
+.withAP .content {
+  width: 100%;
+  height: 100%;
+  background-color: #090909;
+  background-size: auto;
+  margin: 10px;
+  color: #fff;
+  position: relative;
+  background-position: center center;
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+  font-size: 15px;
+}
+.withAP .content ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.HackMercedInPics {
+  padding-top: 100px;
+}
+
+.image-shareImages .transparent-content {
+  margin-top: 50px;
+}
+
+.seeFuture {
+  background-image: url(https://s3-us-west-1.amazonaws.com/hackmerced/look_back_2016/12_full.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 500px;
+}
+.seeFuture .content {
+  background: rgba(0, 0, 0, 0.3);
+}
+.seeFuture > .content {
+  padding: 90px 60px !important;
+}
+
+.index-fosterInnovation h4, .index-fosterInnovation .logo.withText::after {
+  margin-top: 21px;
+}
+.index-fosterInnovation button, .index-fosterInnovation input[type=submit] {
+  padding: 20px;
+  border-radius: 2px;
+  font-size: 16px;
+}
+.index-fosterInnovation p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.index-fosterInnovation .isCentered {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notapply {
+  position: relative;
+}
+
+.index-apply-now {
+  padding: 20px 30px;
+  margin-top: 30px;
+}
+
+.index-Winners2016 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.index-sponsors {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.index-sponsors img {
+  max-width: 325px;
+  margin-bottom: 50px;
+  width: 100%;
+  padding: 0px 25px;
+}
+
+.index-w2-item {
+  min-width: 250px;
+  width: 28%;
+  color: #fff;
+  cursor: pointer;
+  height: 500px;
+  position: relative;
+  padding: 40px 20px;
+}
+.index-w2-item h3 {
+  color: #fff;
+  max-width: 300px;
+}
+.index-w2-item .index-w2-lower {
+  position: absolute;
+  bottom: 20px;
+  background: #fff;
+  position: absolute;
+  color: #636363;
+  font-weight: 600;
+  line-height: 60px;
+  width: 60px;
+  text-align: center;
+  font-size: 30px;
+}
+.index-w2-item .index-w2-lower::after {
+  content: attr(data-win);
+  color: #fff;
+  left: 80px;
+  bottom: 5px;
+  position: absolute;
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.4;
+  width: 200px;
+}
+
+.bolden {
+  font-weight: 600;
+  font-size: 18px;
+  color: #364B91;
+  letter-spacing: 0;
+}
+
+.backgroundUnderlay {
+  opacity: 0;
+  position: fixed;
+  z-index: 0;
+  width: 100%;
+  top: 0px;
+  background-color: #0B3566;
+  height: 100%;
+}
+.backgroundUnderlay.purpleToBlue {
+  background-image: linear-gradient(-180deg, #59009B 0%, #00BCAC 99%);
+}
+.backgroundUnderlay.blueToBluer {
+  background-image: linear-gradient(-180deg, #0B3566 0%, #0B3466 99%);
+}
+
+.sponsor-primaryCTA {
+  margin-top: 25px;
+  display: flex;
+}
+.sponsor-primaryCTA .CTA {
+  font-size: 18px;
+  line-height: 66px;
+  padding: 0px 30px;
+  margin-right: 30px;
+}
+
+.sponsor-SpacedTop {
+  margin-top: 30px !important;
+}
+
+.sponsor-SpacedLeft {
+  margin-left: 30px;
+}
+
+.sponsor-expectedHackers {
+  height: 345px;
+}
+
+.sponsor-smaller-content {
+  padding: 30px 30px;
+}
+
+.sponsor-chartAttendence {
+  width: 100%;
+  height: auto;
+}
+.sponsor-chartAttendence .c3-gauge-value {
+  display: none;
+}
+.sponsor-chartAttendence .c3-chart-arcs-gauge-min, .sponsor-chartAttendence .c3-chart-arcs-gauge-max {
+  font-size: 12px;
+}
+.sponsor-chartAttendence .c3-chart-arcs-background {
+  fill: #E0E0E0;
+}
+
+.sponsor-chartAttendence-text {
+  width: 200px;
+  position: absolute;
+  margin-top: -16px;
+  margin-left: 44px;
+  font-size: 15px;
+  font-weight: 600;
+  display: block;
+}
+
+.sponsor-expectedHackers .sponsor-expectedHackers-text {
+  margin-top: 50px;
+}
+
+.sponsor-rotate-image {
+  padding: 20px 20px 67px;
+  box-sizing: content-box;
+}
+.sponsor-rotate-image img {
+  opacity: 0;
+  display: none;
+}
+.sponsor-rotate-image img:nth-child(1) {
+  display: block;
+  opacity: 1;
+}
+
+.sponsor-StudentParticipants .sponsor-rotate-image:nth-child(2) {
+  height: 92px;
+}
+.sponsor-StudentParticipants .sponsor-rotate-image:nth-child(2) img {
+  height: 92px;
+}
+.sponsor-StudentParticipants .sponsor-rotate-image:nth-child(3) {
+  height: 45px;
+}
+.sponsor-StudentParticipants .sponsor-rotate-image:nth-child(3) img {
+  height: 45px;
+}
+.sponsor-StudentParticipants .sponsor-rotate-image:nth-child(4) {
+  height: 90px;
+}
+.sponsor-StudentParticipants .sponsor-rotate-image:nth-child(4) img {
+  height: 90px;
+}
+.sponsor-StudentParticipants .sponsor-rotate-image:nth-child(5) {
+  height: 200px;
+}
+.sponsor-StudentParticipants .sponsor-rotate-image:nth-child(5) img {
+  height: 200px;
+}
+.sponsor-StudentParticipants img {
+  display: block;
+  margin: 0px auto 57px;
+}
+
+.sponsor-HelixAd {
+  height: auto;
+}
+
+.sponsor-ref-quote {
+  width: 600px;
+  float: left;
+  margin: 47px 0px 0px 40px;
+}
+
+.sponsor-ref-logo {
+  width: calc(100% - 640px);
+  height: 320px;
+  background-size: 300px auto;
+  float: left;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.index-sponsors > a {
+  width: 33%;
+  display: block;
+  text-align: center;
+}
+
+.sponsor-ref-text {
+  font-weight: 300;
+  font-size: 21px;
+  border-radius: 2px;
+}
+
+.sponsor-ref-person {
+  margin-top: 10px;
+  font-weight: 200;
+  color: #7e7e7e;
+}
+
+.sponsor-budgetLastYear {
+  height: 260px;
+  margin-top: 10px;
+}
+.sponsor-budgetLastYear .c3-chart-arcs text {
+  fill: #fff;
+}
+
+.sponsor-main-block p {
+  font-size: 18px;
+}
+
+.center.sponsor-cta-block {
+  margin: 0px auto 78px;
+}
+
+.st-options {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 8px;
+}
+.st-options > * {
+  width: 19%;
+  font-weight: bold;
+  text-align: center;
+  height: 60px;
+  position: relative;
+  padding-top: 6px;
+  box-sizing: border-box;
+}
+.st-options .st-selector {
+  padding-top: 17px;
+}
+.st-options .st-option {
+  border: 1px solid #DCDCDC;
+  border-radius: 2px;
+  position: relative;
+  cursor: pointer;
+}
+.st-options .st-option.selected, .st-options .st-option:hover {
+  background-color: #0B3566;
+  color: #fff;
+  border-color: transparent;
+}
+.st-options .st-option::after {
+  content: attr(data-specific);
+  position: absolute;
+  font-size: 12px;
+  font-weight: normal;
+  margin-top: 25px;
+  left: 0px;
+  width: 100%;
+}
+
+.sponsor-TierTable {
+  transition: height 500ms ease-in;
+}
+.sponsor-TierTable h3 > text {
+  text-transform: capitalize;
+}
+.sponsor-TierTable table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+}
+.sponsor-TierTable table th, .sponsor-TierTable table td {
+  padding: 15px;
+  text-align: center;
+  min-width: 119px;
+  border: 1px solid #DCDCDC;
+}
+.sponsor-TierTable table tr:nth-child(1) th {
+  border-top: 0px;
+}
+.sponsor-TierTable table tr:last-child td {
+  border-bottom: 0px;
+}
+.sponsor-TierTable table td:last-child, .sponsor-TierTable table th:last-child {
+  border-right: 0px;
+}
+.sponsor-TierTable table td:nth-child(1), .sponsor-TierTable table th:nth-child(1) {
+  text-align: right;
+  font-weight: 600;
+  border-left: 0px;
+  width: 200px;
+}
+.sponsor-TierTable .sponsor-tier-item {
+  display: none;
+}
+.sponsor-TierTable th.selected, .sponsor-TierTable td.selected {
+  display: table-cell;
+}
+.sponsor-TierTable tr.selected {
+  display: table-row;
+}
+
+.sponsor-Contact form {
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+}
+.sponsor-Contact form input, .sponsor-Contact form textarea {
+  font-family: "League Spartan", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.sponsor-TierTable-container {
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.sponsor-submit-button {
+  background-color: #0B3566;
+  color: #fff;
+  padding: 18px 30px;
+}
+
+[data-page=sponsor] h6:not(.infobox), [data-page=sponsor] .CTA.white {
+  color: #0B3566;
+}
+[data-page=sponsor] .infobox {
+  background-color: #0B3566;
+  color: #fff;
+}
+
+@media screen and (max-width: 1205px) {
+  [data-page=sponsor] .sponsor-WhatWeHavePlanned, [data-page=sponsor] .sponsor-HowWeUseMoney {
+    height: auto;
+  }
+
+  .st-selector {
+    display: none;
+  }
+
+  .st-options > * {
+    width: 24%;
+  }
+}
+@media screen and (max-width: 1170px) {
+  h2 {
+    font-size: 40px;
+  }
+
+  .index-il-image1 {
+    background-size: auto 100%;
+  }
+}
+@media screen and (max-width: 1030px) {
+  .index-il-image1 {
+    background-size: 100%;
+  }
+
+  section {
+    width: 100% !important;
+    float: none !important;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  h4, .logo.withText::after {
+    font-size: 24px;
+  }
+
+  .index-HF2 {
+    margin-top: -67px;
+  }
+
+  .index-imageloader {
+    order: 1;
+  }
+
+  .index-startHacking {
+    order: 2;
+  }
+
+  .HackMercedInPics {
+    padding: 0px;
+  }
+
+  .index-HackMercedinPics {
+    margin-top: 0px;
+    height: auto;
+    padding: 100px 0px;
+  }
+
+  .ad-helix-container {
+    display: none;
+  }
+
+  .sponsor-SpacedLeft {
+    margin-left: 0px;
+    margin-top: 30px;
+  }
+
+  .sponsor-ref-logo {
+    display: none;
+  }
+
+  .sponsor-ref-quote {
+    margin: 0 auto;
+    float: none;
+    max-width: 600px;
+  }
+
+  .sponsor-rotate-image {
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .sponsor-StudentParticipants .sponsor-smaller-content {
+    text-align: center;
+  }
+
+  .section.sponsor-shippingYou {
+    display: none;
+  }
+
+  .sponsor-expectedHackers {
+    display: none;
+  }
+
+  nav.isLeft {
+    display: none !important;
+  }
+}
+header .isLeft .getUpdates {
+  display: none;
+}
+
+@media screen and (max-width: 860px) {
+  section .small-content {
+    padding: 30px 20px;
+  }
+
+  h6.infobox {
+    display: block;
+    height: auto;
+  }
+
+  textarea, input {
+    font-size: 16px !important;
+  }
+
+  .sponsor-References {
+    display: none;
+  }
+
+  .logo.withText {
+    width: 149px;
+    float: none;
+  }
+
+  header .isRight .getUpdates {
+    display: none;
+  }
+
+  header nav a:last-of-type {
+    margin: 0px;
+  }
+
+  header {
+    margin: 40px 0px;
+  }
+
+  .gu-content {
+    padding-top: 70px;
+  }
+  .gu-content input {
+    width: 100%;
+  }
+
+  .index-HF2 {
+    display: none;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  .index-HackMercedinPics {
+    text-align: left;
+  }
+
+  button.normal, input.normal[type=submit] {
+    font-size: 14px;
+    padding: 15px;
+    min-width: 160px;
+  }
+
+  li {
+    margin: 0px 10px;
+  }
+
+  .index-HF2 {
+    margin-top: -50px;
+  }
+
+  footer .content {
+    padding: 20px 0px;
+  }
+
+  .st-options {
+    display: block;
+  }
+
+  .st-selector {
+    display: block;
+  }
+
+  .st-options > * {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .sponsor-References {
+    height: auto;
+  }
+
+  .sponsor-ref-text {
+    margin-top: 0px;
+  }
+
+  .sponsor-primaryCTA {
+    display: block;
+  }
+
+  .sponsor-primaryCTA .CTA {
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+}
+.mobicon {
+  display: none;
+  margin: 0px 0px 2px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 660px) {
+  body, html {
+    min-width: 200px;
+  }
+
+  .index-w2-item {
+    width: 100%;
+  }
+
+  .index-Winners2016 {
+    display: block;
+  }
+
+  header nav.isLeft {
+    position: fixed;
+    bottom: 0;
+    background: #fff;
+    left: 0px;
+    width: 100%;
+    top: auto;
+    display: flex !important;
+    height: 62px;
+    z-index: 999;
+    justify-content: space-around;
+  }
+  header nav.isLeft .mobicon {
+    display: block;
+  }
+  header nav.isLeft a {
+    text-align: center;
+    color: #090909;
+    padding: 14px 0px;
+    width: 25%;
+    font-size: 12px;
+    margin-right: 0px;
+  }
+
+  .banner-container {
+    padding: 0px 20px;
+  }
+
+  body.dark header nav a {
+    color: #090909;
+  }
+
+  .sponsor-primaryCTA .CTA {
+    width: 100%;
+  }
+
+  .sponsor-connectTotheBestHackers {
+    padding: 0px 20px;
+  }
+
+  .center.sponsor-cta-block {
+    margin-bottom: 60px;
+  }
+
+  section.isFull > .content {
+    padding: 20px 20px;
+  }
+
+  section.minHeight {
+    min-height: 400px;
+    height: auto;
+  }
+
+  .center.notext:not(.media-padded) {
+    padding: 0px;
+  }
+
+  .center {
+    padding: 0px 20px;
+  }
+
+  .index-HackMercedinPics {
+    font-size: 46px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input {
+    font-size: 16px;
+    line-height: 48px;
+    padding: 0px 18px;
+  }
+
+  .gu-content input[type=submit] {
+    margin-top: 18px;
+    width: 150px;
+    font-size: 14px;
+    padding: 0px;
+    height: 50px;
+    line-height: 50px;
+    height: auto;
+  }
+
+  p {
+    margin: 15px 0px;
+  }
+
+  h1 {
+    font-size: 28px;
+    margin: 10px 0px;
+  }
+
+  h4, .logo.withText::after {
+    font-size: 18px;
+  }
+
+  container.notext h4, container.notext .logo.withText::after {
+    font-size: 24px;
+  }
+  container.notext h1 {
+    font-size: 48px;
+  }
+
+  .gu-content form {
+    margin-top: 20px;
+  }
+
+  .index-il-image1 {
+    width: 100%;
+  }
+
+  .index-il-image1::after {
+    display: none;
+  }
+
+  .index-il-image2 {
+    display: none;
+  }
+
+  .gu-content {
+    margin: 0px 0px;
+    padding: 40px 0px;
+  }
+
+  .gu-exit {
+    bottom: 27px;
+    top: auto;
+    position: fixed;
+    right: 27px;
+  }
+}
+@media screen and (max-width: 540px) {
+  h5, button, input[type=submit], .sponsor-primaryCTA .CTA {
+    font-size: 16px;
+  }
+
+  .apply-option {
+    width: 100%;
+  }
+
+  header nav.isRight {
+    left: 20px;
+    top: 49px;
+    right: auto;
+  }
+
+  .apply-btn-bottom {
+    width: calc(100% - 40px);
+  }
+
+  .padOnMobile {
+    padding: 0px 20px;
+  }
+
+  h6.infobox {
+    font-size: 17px;
+    margin-left: -20px;
+    width: calc(100% + 50px);
+    padding: 25px 20px 20px;
+    line-height: 1;
+  }
+
+  .index-HackMercedinPics {
+    font-size: 38px;
+  }
+
+  container.notext h1 {
+    font-size: 28px;
+  }
+  container.notext h4, container.notext .logo.withText::after {
+    font-size: 18px;
+  }
+
+  .sponsor-wordLearnMore {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=client.css.map */
